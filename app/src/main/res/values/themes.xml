@@ -1,0 +1,29 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Assessment" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <color name="card_border_color">@color/card_border_color_day</color>
+
+    <style name="Theme.Assessment.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Assessment.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Assessment.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <color name="text_color_title">@color/text_color_title_day</color>
+    <color name="text_color_sub_title">@color/text_color_sub_title_day</color>
+
+    <style name="personal_collapsed_title">
+        <item name="android:textSize">@dimen/title</item>
+        <item name="android:textColor">@color/text_color_title_day</item>
+    </style>
+</resources>

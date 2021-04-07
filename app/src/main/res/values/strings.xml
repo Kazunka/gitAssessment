@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Assessment</string>
+
+    <!--    Auth Screen     -->
+    <string name="auth_screen_input_txt_hint_username">User Name</string>
+    <string name="auth_screen_input_txt_hint_password">Password</string>
+    <string name="auth_screen_button_txt_sign_in">Sign in</string>
+
+    <!--    Profile Screen -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_follow"><b>%1d</b> followers \t\t <b>%2d</b> following</string>
+
+    <string name="profile_pinned">Pinned</string>
+    <string name="profile_top_stories">Top Repositories</string>
+    <string name="profile_startted">Starred repositories</string>
+
+    <string name="profile_action_view_all">View all</string>
+
+</resources>

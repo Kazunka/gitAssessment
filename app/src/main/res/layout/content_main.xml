@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/content_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/profile_pinned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/activity_horizontal_half_margin"
+                android:text="@string/profile_pinned"
+                android:textColor="@color/text_color_title"
+                android:textSize="@dimen/header_sub_title"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/profile_pinned_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/activity_horizontal_half_margin"
+                android:text="@string/profile_action_view_all"
+                android:textColor="@color/text_color_title"
+                android:textSize="@dimen/title"
+                android:textStyle="normal"
+                android:layout_alignParentEnd="true"
+                android:layout_alignBottom="@+id/profile_pinned"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:layout_alignEnd="@id/profile_pinned_action"
+                android:layout_alignStart="@id/profile_pinned_action"
+                android:layout_below="@id/profile_pinned_action"
+                android:layout_marginTop="-4dp"
+                android:background="@color/text_color_title"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/pinned_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_pinned_action"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/profile_top_repo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/activity_horizontal_half_margin"
+                android:text="@string/profile_top_stories"
+                android:textColor="@color/text_color_title"
+                android:textSize="@dimen/header_sub_title"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/profile_top_repo_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/activity_horizontal_half_margin"
+                android:text="@string/profile_action_view_all"
+                android:textColor="@color/text_color_title"
+                android:textSize="@dimen/title"
+                android:textStyle="normal"
+                android:layout_alignParentEnd="true"
+                android:layout_alignBottom="@+id/profile_top_repo"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:layout_alignEnd="@id/profile_top_repo_action"
+                android:layout_alignStart="@id/profile_top_repo_action"
+                android:layout_below="@id/profile_top_repo_action"
+                android:layout_marginTop="-4dp"
+                android:background="@color/text_color_title"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/top_repo_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_top_repo_action"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/profile_starred"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/activity_horizontal_half_margin"
+                android:text="@string/profile_top_stories"
+                android:textColor="@color/text_color_title"
+                android:textSize="@dimen/header_sub_title"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/profile_starred_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/activity_horizontal_half_margin"
+                android:text="@string/profile_action_view_all"
+                android:textColor="@color/text_color_title"
+                android:textSize="@dimen/title"
+                android:textStyle="normal"
+                android:layout_alignParentEnd="true"
+                android:layout_alignBottom="@+id/profile_starred"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:layout_alignEnd="@id/profile_starred_action"
+                android:layout_alignStart="@id/profile_starred_action"
+                android:layout_below="@id/profile_starred_action"
+                android:layout_marginTop="-4dp"
+                android:background="@color/text_color_title"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/starred_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_starred_action"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Navigation ID for the auth/Landing screen-->
+    <item name="action_show_landing_screen"      type="id"/>
+    <item name="action_show_progress_view"       type="id"/>
+
+</resources>

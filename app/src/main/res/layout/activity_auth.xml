@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:_context=".view.launcher.AuthActivity">
+
+    <include layout="@layout/content_auth" />
+
+    <include layout="@layout/progress_view" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

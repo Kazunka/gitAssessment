@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_vertical_margin"                      >16dp</dimen>
+    <dimen name="activity_horizontal_margin"                    >16dp</dimen>
+    <dimen name="activity_horizontal_double_margin"             >32dp</dimen>
+    <dimen name="activity_vertical_double_margin"               >32dp</dimen>
+    <dimen name="activity_horizontal_half_margin"               >8dp</dimen>
+    <dimen name="activity_vertical_half_margin"                 >8dp</dimen>
+    <dimen name="activity_vertical_quart_margin"                >4dp</dimen>
+
+    <dimen name="activity_horizontal_quart_margin"              >4dp</dimen>
+
+
+    <!-- Default font sizes, per the Android Design guidelines. -->
+    <dimen name="header_title"                                  >32sp</dimen>
+    <dimen name="header_sub_title"                              >24sp</dimen>
+    <dimen name="title"                                         >20sp</dimen>
+    <dimen name="paragraph"                                     >16sp</dimen>
+
+    <!--    Auth Screen Dimentions   -->
+    <dimen name="auth_screen_logo_height"                       >150dp</dimen>
+    <dimen name="auth_screen_logo_width"                        >@dimen/auth_screen_logo_height</dimen>
+
+</resources>

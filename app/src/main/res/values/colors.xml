@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FFFFFF</color>
+    <color name="purple_700">#F3F3F3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="card_border_color_day">#FF424242</color>
+    <color name="card_border_color_night">#E4CCCCCC</color>
+
+    <color name="text_color_title_day">#000000</color>
+    <color name="text_color_sub_title_day">#BF000000</color>
+    <color name="text_color_title_night">#FFFFFF</color>
+    <color name="text_color_sub_title_night">#D9FFFFFF</color>
+
+    <!-- Common Alert colors -->
+<!--    TODO: Change this according to the color theme-->
+    <color name="alert_error">#FF1007</color>
+    <color name="alert_info">#7892BC</color>
+    <color name="alert_warning">#F8A600</color>
+    <color name="alert_success">#31C192</color>
+
+    <color name="snack_bar_text">#ffffff</color>
+</resources>

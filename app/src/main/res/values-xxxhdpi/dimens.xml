@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Auth Screen Dimentions   -->
+    <dimen name="auth_screen_logo_height">150dp</dimen>
+    <dimen name="auth_screen_logo_width">@dimen/auth_screen_logo_height</dimen>
+
+</resources>

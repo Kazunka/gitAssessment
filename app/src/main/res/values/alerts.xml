@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Auth Screen Local Error Alerts   -->
+    <string name="invalid_user_name">Invalid User Name</string>
+    <string name="invalid_password">Invalid Password</string>
+</resources>
